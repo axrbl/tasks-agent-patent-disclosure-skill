@@ -160,7 +160,7 @@ python tools/mermaid_render.py -i draft.md -o out/一种XXX方法及系统_20260
 
 ### 与交底书约定
 
-- 技能要求定稿**同时**交付 **Markdown + Word**，且 **`-o` 主文件名须含 `_{YYYYMMDDHHmmss}`**（`skills/patent-disclosure/prompts/invention/disclosure_builder.md` `rules-general.md` §4.2 第 5 点，含首次定稿）；**3.2 系统框图**与 **3.4 流程图**均用 fenced mermaid，**不要** ASCII 文字流程图或框图。
+- 技能要求定稿**同时**交付 **Markdown + Word**，且 **`-o` 主文件名须含 `_{YYYYMMDDHHmmss}`**（`skills/patent-disclosure/prompts/invention/disclosure_builder.md` §4.2 第 5 点，含首次定稿）；**3.2 系统框图**与 **3.4 流程图**均用 fenced mermaid，**不要** ASCII 文字流程图或框图。
 - 交付代理人前：运行 `mermaid_render.py` 一步即可（默认再调 `md_to_docx.py`）；若 Word 失败，按 stderr 提示手动执行 `md_to_docx.py`。
 - **判读**：`MERMAID:` / `DOCX: ok=1` 且退出码 0 即为成功；stderr 中文或 PowerShell 红字不是失败。`DOCX: ok=0` 才算 Word 失败。
 - 默认**不**预渲染公式 PNG。Word 公式走 OMML；stderr 若有 `omml_text_fallback` / `OMML_FAIL:`，须用户确认后再 `pip install matplotlib` 并以 `--math` / `--math-render` 重出 Word。

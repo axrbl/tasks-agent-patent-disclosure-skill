@@ -14,11 +14,11 @@
 2. **分类**：
    - **事实与技术**：流程、参数、模块关系 → 改第三章及相关实施例、3.5。
    - **术语与可读性**：某词太抽象、与标题/话题背景不匹配 → 按**术语族替换**换成领域表述（1.1 至第六章及 mermaid）；3.1 定义领域词及如何判定。禁止只改一处、禁止做成全局禁词表、禁止靠定义保留错位词、禁止写入材料没有的配置模块。
-   - **符号与公式体例**：上标维度（如 `^{cpu}`）、装饰音（`\tilde` 等，**agent 式**）、符号多义、LaTeX 分隔符混用、普通括号包 LaTeX（如 `(M_{\mathrm{total}})`，须改为 `\(M_{\mathrm{total}}\)`）、3.5 与 3.4.1 不同形、未更新 `formula_plan`、**把材料公式改写成范式**、`origin` 标错 → 改 **formula_plan**、**3.4.1 符号表**、相关公式、**3.5 符号列**及第六章实施例；遵循 **`disclosure_builder.md` §7.7**、**`references/formulas/`** 与 **`template_reference.md` `rules-general.md` §1.4.1**。改正分隔符后须对**新时间戳 md**重出 Word，禁止用未改正的 `draft.md`。
+   - **符号与公式体例**：上标维度（如 `^{cpu}`）、装饰音（`\tilde` 等，**agent 式**）、符号多义、LaTeX 分隔符混用、普通括号包 LaTeX（如 `(M_{\mathrm{total}})`，须改为 `\(M_{\mathrm{total}}\)`）、3.5 与 3.4.1 不同形、未更新 `formula_plan`、**把材料公式改写成范式**、`origin` 标错 → 改 **formula_plan**、**3.4.1 符号表**、相关公式、**3.5 符号列**及第六章实施例；遵循 **`disclosure_builder.md` §7.7**、**`references/formulas/`** 与 **`template_reference.md` §1.4.1**。改正分隔符后须对**新时间戳 md**重出 Word，禁止用未改正的 `draft.md`。
    - **查新与区别**：现有技术或区别论述不准 → 改第一章，必要时再检索。
    - **保护点与表述**：第四章、第五章论点 → 与第三章对齐，避免矛盾；保护点可跟场景词但须仍为可实施机制；实用/外观若**侧重点/主题转向**，按附图类同样 **先重评或新建 `figure_plan.yaml`**。
    - **附图与主题（实用/外观）**：换图、改件号/视图、主题转向 → **先更新或新建 `figure_plan.yaml`**（重排入文图、`covers`、`relates_to`），再改正文「如图/见图 N」与插图路径。
-   - **点名场景图（发明，亦可用于实用环境图）**：用户指定某张图并要求入交底 → 按发明 `disclosure_builder.md` `rules-general.md` §4.2 点名图规则嵌入；不要套外观 `photo_scene` 默认不入文。
+   - **点名场景图（发明，亦可用于实用环境图）**：用户指定某张图并要求入交底 → 按发明 `disclosure_builder.md` §4.2 点名图规则嵌入；不要套外观 `photo_scene` 默认不入文。
 3. **落地修改**：形成纠正后全文，**写入新文件** **`{案件名}_{YYYYMMDDHHmmss}.md`** 并经 `mermaid_render.py` 生成同名 `.docx`（`rules-general.md` §4.2 第 5 点）；**禁止**无必要大段重写无关章节；**勿默认覆盖**用户上一版文件名。OMML 失败时按发明 builder 定稿节反问公式 PNG，未得「是」禁止装 matplotlib。
 4. **自检**：执行 `disclosure_self_check.md` 的 **8.1（发明且涉及术语/标题/实施例时）、8.2、8.3**（实用/外观含 **8.4/8.5**）。术语族替换后 `rules-general.md` §4.3 相关项必核。
 5. **对话记录**：按 **`iteration_context.md`**「修订对话记录」在案件目录追加 **`交底书修订对话记录.md`**（优先 **`tools/iteration_dialog_log.py --kind correct`**）。

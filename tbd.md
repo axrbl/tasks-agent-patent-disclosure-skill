@@ -21,10 +21,10 @@
 
 - [ ] **P2 ｜ `rules-tasks.md` §3.5：自建部分与上游部分未分离**
   - 现状：整目录为上游体例，我们的使用约定无处安放（无 `docs/AI-USAGE.md`）。
-  - 依据：`rules-tasks.md` §3.5「skill 只做编排：事实细节指向文档，不复制内容」；`rules-tasks.md` §3.3 能力包双读者文档。
+  - 依据：`rules-tasks.md` §3.5「skill 只做编排：事实细节指向文档，不复制内容」；§3.3 能力包双读者文档。
   - 待办：在**不改上游文件**的前提下，另加我们的使用说明（如 `docs/AI-USAGE.md` 或 README 附加节）。
 
-- [ ] **P3 ｜ `rules-tasks.md` §2.1 / `rules-tasks.md` §1.1：缺任务三件套与标准目录**
+- [ ] **P3 ｜ `rules-tasks.md` §2.1 / §1.1：缺任务三件套与标准目录**
   - 现状：`docs/` 下只有 8 张图片；无 `DESIGN.md`/`PROGRESS.md`/`History.md`；无 `todo/`、`done/`、`tools/`（脚本在 `scripts/`）；`.gitignore` 缺 `build/`。
   - 说明：**若按上节定性为"外部 skill"则本条多数不适用**——登记与薄封装即可，不必照搬任务目录规格。
   - 待办：先定性质，再决定是否需要本条。
