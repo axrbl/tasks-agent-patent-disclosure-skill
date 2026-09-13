@@ -2,7 +2,7 @@
 
 **本文件仅用于外观设计。** 发明 / 实用新型分见对应目录。
 
-命名时间戳、脱敏、禁止仓库脚注等公共纪律可参照 `../invention/disclosure_builder.md` `rules-general.md` §4.2 / 文末清洁要求。  
+命名时间戳、脱敏、禁止仓库脚注等公共纪律可参照 `../invention/disclosure_builder.md` §4.2 / 文末清洁要求。  
 成文前须 AppearanceSchema（`prompts/fill_appearance_schema.md`）及同目录 **`figure_plan.yaml`**（`references/schemas/figure_plan.schema.yaml`）。
 
 外观文件实务格式因代理所而异；本技能交付 **Markdown + 同名 Word**。视图说明须同时嵌入**干净实拍**与**线稿**（两套文档一致，用 `tools/md_to_docx.py`；勿只出 md、勿漏实拍或漏线稿）。

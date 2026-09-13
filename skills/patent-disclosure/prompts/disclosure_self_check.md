@@ -6,9 +6,9 @@
 
 | 类型 | 必做 |
 |------|------|
-| 发明 | `rules-general.md` §4.3–`rules-general.md` §4.5（全文）；含公式时 `rules-general.md` §4.4 必核 |
-| 实用新型 | `rules-general.md` §4.5 通用项 + **`rules-general.md` §4.6**（`rules-general.md` §4.3–8.2 中明显属「算法/系统/公式」的条目可跳过） |
-| 外观设计 | `rules-general.md` §4.5 中与命名/查新/文末清洁相关项 + **`rules-general.md` §4.7** |
+| 发明 | `rules-general.md` §4.3–§4.5（全文）；含公式时 §4.4 必核 |
+| 实用新型 | `rules-general.md` §4.5 通用项 + **§4.6**（§4.3–8.2 中明显属「算法/系统/公式」的条目可跳过） |
+| 外观设计 | `rules-general.md` §4.5 中与命名/查新/文末清洁相关项 + **§4.7** |
 
 细则成文入口：`invention|utility_model|design/disclosure_builder.md`。
 
