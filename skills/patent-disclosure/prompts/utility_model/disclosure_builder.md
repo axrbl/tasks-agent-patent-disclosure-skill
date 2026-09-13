@@ -2,7 +2,7 @@
 
 **本文件仅用于实用新型。** 发明细则见 `../invention/disclosure_builder.md`；外观见 `../design/disclosure_builder.md`。
 
-公共规则（命名时间戳、脱敏、查新 URL、`abstract` 必用、禁止正文写自检清单 / 仓库脚注）与发明 **§7.3 / 第一章硬性要求** 一致时，直接引用发明 builder 对应节，**勿复制发明的 3.2/3.4 mermaid 系统主线**。
+公共规则（命名时间戳、脱敏、查新 URL、`abstract` 必用、禁止正文写自检清单 / 仓库脚注）与发明 **`rules-general.md` §4.2 / 第一章硬性要求** 一致时，直接引用发明 builder 对应节，**勿复制发明的 3.2/3.4 mermaid 系统主线**。
 
 成文前须已有 StructureSchema（`prompts/fill_structure_schema.md`）及同目录 **`figure_plan.yaml`**（`references/schemas/figure_plan.schema.yaml`）。
 
@@ -46,7 +46,7 @@
 
 ## 7.3 命名与交付
 
-与发明 **§7.3** 相同：`{案件名规范化}_{YYYYMMDDHHmmss}.md` + 同名 `.docx`（凡交付必时间戳；勿覆盖旧稿）。
+与发明 **`rules-general.md` §4.2** 相同：`{案件名规范化}_{YYYYMMDDHHmmss}.md` + 同名 `.docx`（凡交付必时间戳；勿覆盖旧稿）。
 
 图示：
 
@@ -73,7 +73,7 @@
 
 ## 7.6 自检（内部）
 
-执行 `../disclosure_self_check.md` **通用项 + §8.4 实用新型**，并确认：
+执行 `../disclosure_self_check.md` **通用项 + `rules-general.md` §4.6 实用新型**，并确认：
 
 - [ ] 文头为实用新型  
 - [ ] 第三章可追溯 StructureSchema  
