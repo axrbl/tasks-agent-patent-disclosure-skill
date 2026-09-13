@@ -2,7 +2,7 @@
 
 **本文件仅用于外观设计。** 发明 / 实用新型分见对应目录。
 
-命名时间戳、脱敏、禁止仓库脚注等公共纪律可参照 `../invention/disclosure_builder.md` §4.2 / 文末清洁要求。  
+命名时间戳、脱敏、禁止仓库脚注等公共纪律可参照 `../invention/disclosure_builder.md` §7.3 / 文末清洁要求。  
 成文前须 AppearanceSchema（`prompts/fill_appearance_schema.md`）及同目录 **`figure_plan.yaml`**（`references/schemas/figure_plan.schema.yaml`）。
 
 外观文件实务格式因代理所而异；本技能交付 **Markdown + 同名 Word**。视图说明须同时嵌入**干净实拍**与**线稿**（两套文档一致，用 `tools/md_to_docx.py`；勿只出 md、勿漏实拍或漏线稿）。
@@ -47,13 +47,13 @@
 
 ## 7.4 命名与交付
 
-- 主文件名：`{产品名规范化}_{YYYYMMDDHHmmss}.md`（规则同发明 `rules-general.md` §4.2：去占位、非法字符、≤80 字、凡交付必时间戳）。  
+- 主文件名：`{产品名规范化}_{YYYYMMDDHHmmss}.md`（规则同发明 §7.3：去占位、非法字符、≤80 字、凡交付必时间戳）。  
 - 配图：按 `figure_plan.path` 拷到交付同级 `assets/` 或写相对路径；勿覆盖旧交付。实拍与线稿都拷。  
 - **必须**：`tools/md_to_docx.py` 生成同名 `.docx`（与 md 同一套入文图）。
 
 ## 7.5 自检（内部）
 
-执行 `../disclosure_self_check.md` **通用项 + `rules-general.md` §4.7 外观设计**，并确认：
+执行 `../disclosure_self_check.md` **通用项 + §8.5 外观设计**，并确认：
 
 - [ ] 文头为外观设计  
 - [ ] 设计要点可追溯 AppearanceSchema  
